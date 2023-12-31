@@ -1,0 +1,1 @@
+cd build/src && solara run app.py
