@@ -58,7 +58,7 @@ class Envs(BaseSettings):
     openai_api_key: str
     openai_model: str = "gpt-3.5-turbo"
 
-kwargs = {} if os.getenv("PRODUCTION") else dict(_env_file="../../.env")
+kwargs = {} if os.getenv("IN_DOCKER") == "true" else dict(_env_file="../../.env")
 envs = Envs(**kwargs)
 
 TIME_DIFFS = {
@@ -323,7 +323,6 @@ def PercentageChange(data: Optional[dict]):
                 # show red if negative, green if positive
                 color = "red" if change < 0 else "green"
 
-                # color can be displayed as :red[this will be red] in markdown
                 with sl.Row():
                     sl.Text(name)
                     sl.Text(f"{round(change, 2)}%", style=dict(color=color))

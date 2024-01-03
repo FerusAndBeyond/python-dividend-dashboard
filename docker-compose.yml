@@ -11,4 +11,5 @@ services:
             FMP_API_KEY: ${FMP_API_KEY}
             OPENAI_API_KEY: ${OPENAI_API_KEY}
             OPENAI_MODEL: ${OPENAI_MODEL}
+            IN_DOCKER: true
             PYTHONUNBUFFERED: 1
