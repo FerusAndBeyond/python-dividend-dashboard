@@ -9,11 +9,15 @@ This is a Python web app built with [Solara](https://github.com/widgetti/solara)
 
 First clone the repository:
 
-`git clone git@github.com:FerusAndBeyond/python-dividend-dashboard.git` 
+```bash
+git clone git@github.com:FerusAndBeyond/python-dividend-dashboard.git`
+```
  
 and then cd into it
  
-`cd python-dividend-dashboard`.
+```bash
+cd python-dividend-dashboard
+```
 
 #### Environment variables
 
