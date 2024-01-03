@@ -3,11 +3,17 @@
 This is a Python web app built with [Solara](https://github.com/widgetti/solara) where you can analyze dividend stocks. 
 
 * [Article](...)
-* [Demo](https://www.youtube.com/watch?v=0DzHakZImvU)
+* [Video](https://www.youtube.com/watch?v=0DzHakZImvU)
 
 ## Setup
 
-First clone the repository `git clone ...` and `cd` into the directory.
+First clone the repository:
+
+`git clone git@github.com:FerusAndBeyond/python-dividend-dashboard.git` 
+ 
+and then cd into it
+ 
+`cd python-dividend-dashboard`.
 
 #### Environment variables
 
@@ -21,7 +27,7 @@ This will create a `.env` file for configuration variables such as the needed AP
 
 ###### Financial Modeling Prep
 
-Financial Modeling Prep (FMP) is a financial data API containing various data for fundamental analysis. You can sign up for free to obtain 250 API requests per day. Alternatively, for a premium version with more requests and additional features, you can sign up for a paid version. You can support me by using my affiliate link while also getting 15% off [here](https://intelligence.financialmodelingprep.com/pricing-plans?couponCode=jacobf). 
+Financial Modeling Prep (FMP) is a financial data API containing various data for fundamental analysis. You can sign up for free to obtain 250 API requests per day. Alternatively, for a premium version with more requests and additional features, you can sign up for a paid version. You can support me by using my affiliate link while also getting 15% off [here](https://utm.guru/uggRv). 
 
 More info about FMP [here](https://site.financialmodelingprep.com/developer/docs).
 
@@ -35,7 +41,7 @@ Add the two API keys to the `.env` file for variables `FMP_API_KEY` and `OPENAI_
 
 #### Run
 
-There are two options, run in docker or outside of docker. To run in docker, simply call:
+There are two options, run in docker or outside of docker. To run in docker, you need to first have docker installed. Then, simply call:
 
 ###### Docker
 
