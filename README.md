@@ -2,7 +2,7 @@
 
 This is a Python web app built with [Solara](https://github.com/widgetti/solara) where you can analyze dividend stocks. 
 
-* [Article](...)
+* [Article](https://medium.com/@dreamferus/creating-financial-dashboards-in-python-with-solara-70c82f39391d?sk=2552f997f26ae15528b4491c7c1bb6ba)
 * [Video](https://www.youtube.com/watch?v=0DzHakZImvU)
 
 ## Setup
