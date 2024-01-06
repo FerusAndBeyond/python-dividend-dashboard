@@ -10,7 +10,7 @@ This is a Python web app built with [Solara](https://github.com/widgetti/solara)
 First clone the repository:
 
 ```bash
-git clone git@github.com:FerusAndBeyond/python-dividend-dashboard.git`
+git clone git@github.com:FerusAndBeyond/python-dividend-dashboard.git
 ```
  
 and then cd into it
